@@ -1,4 +1,4 @@
-FROM docker://ubuntu:20.04
+FROM docker://alpine
 
 WORKDIR /app
 
