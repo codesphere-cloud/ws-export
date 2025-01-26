@@ -1,0 +1,2 @@
+#!/bin/sh
+echo 0 "$(id -u)" 1 > /proc/"$1"/uid_map
