@@ -1,0 +1,3 @@
+#!/bin/sh
+echo deny > /proc/"$1"/setgroups
+echo 0 "$(id -g)" 1 > /proc/"$1"/gid_map
